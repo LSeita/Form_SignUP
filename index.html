@@ -9,8 +9,8 @@
 </head>
 <body>
     <div class="container">
+        <img src="images/halie-west-25xggax4bSA-unsplash.jpg" alt="Plant background" id="background">
         <div class="background-container">
-            <img src="images/halie-west-25xggax4bSA-unsplash.jpg" alt="Plant background" id="background">
             <div class="logo">
                 <img src="images/odin-lined.png" alt="Odin logo">
                 <span>Odin</span>
@@ -27,7 +27,7 @@
                     </p>
                     <p>
                         <h2>
-                            You know you want to.
+                            You <span>know</span> you want to.
                         </h2>
                     </p>  
                 </header>
@@ -38,13 +38,14 @@
                     <div class="input-container">
                         <label for="name">NOME</label>
                         <input type="text" name="user_name" id="name">   
+                        <span></span>
                     </div>
                     <div class="input-container">
                         <label for="lastname">SOBRENOME</label>    
                         <input type="text" name="user_lastname" id="lastname">   
                     </div>
                     <div class="input-container">
-                        <label for="email">EMAIL</label>    
+                        <label for="email" data-help="Teste">EMAIL</label>    
                         <input type="email" name="user_email" id="email">   
                     </div>
                     <div class="input-container">
@@ -52,15 +53,18 @@
                         <input type="tel" name="user_tel" id="phone">   
                     </div>
                     <div class="input-container">
-                        <label for="password">Senha</label>    
+                        <label for="password">SENHA</label>    
                         <input type="password" name="user_pw" id="password">   
                     </div>
                     <div class="input-container">
-                        <label for="confirm_password">Senha</label>    
+                        <label for="confirm_password">CONFIRMAR SENHA</label>    
                         <input type="password" name="confirm_pw" id="confirm_password">   
                     </div>
-                    <button type="submit">CRIAR CONTA</button>
+                    <button type="submit">Create Account</button>
                 </form>
+                <p>
+                    <span>Already have an account? <a href="">Log In</a></span>
+                </p>
             </div>
         </div>
     </div>
