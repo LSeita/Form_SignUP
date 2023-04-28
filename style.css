@@ -112,3 +112,13 @@ a{
 .error{
     border: red solid 2px;
 }
+
+.error-msg{
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 3px;
+}
+
+.error-visible{
+    visibility: hidden;
+}
